@@ -1,0 +1,49 @@
+@import "/styles/variables.scss";
+
+.container {
+  padding: 0.625rem 7rem;
+  background: #f6f6f6;
+  background-image: url("/images/image 2 (Traced) (2).png");
+  background-size: 60%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+
+  .firstcon {
+    .head {
+      .more {
+        color: red;
+      }
+    }
+  }
+  .desc {
+    width: 34.375rem;
+
+    .help {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+    }
+    .see {
+      margin-top: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #000ccc;
+      i {
+        color: #000ccc;
+        font-size: 13px;
+      }
+    }
+  }
+}
+.seccon {
+  p {
+    margin-top: 13rem;
+    font-family: $font-alternate;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,84 @@
+@import "/styles/variables.scss";
+.maincontainer {
+  background: #f6f6f6;
+  padding-bottom: 5.9375rem;
+
+  .innermaindiv {
+    padding: 2rem 7rem;
+    .container {
+      color: black;
+      display: flex;
+      margin-top: 2rem;
+
+      .get {
+        color: #000ccc;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 1rem;
+      }
+      h1 {
+        display: inline-block;
+        font-style: normal;
+        font-family: $font-alternate;
+        font-weight: 400;
+        font-size: 86px;
+        margin-bottom: 0px;
+      }
+    }
+
+    .wrapper {
+      display: flex;
+
+      .imgwrapper {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+      .contentdiv {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 6rem 0rem 0rem 3rem;
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #1d1d1d;
+        }
+        .innercontent {
+          // margin: 6rem 0rem 0rem 1rem;
+        }
+        .statement {
+          ul {
+            list-style-type: none;
+            color: black;
+            margin: 0px;
+            padding: 0px;
+
+            li {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 22px;
+              line-height: 25px;
+
+              margin: 1.5rem 0rem;
+
+              .check {
+                margin-right: 0.7rem;
+                color: #000ccc;
+              }
+            }
+          }
+        }
+        .btn {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          color: #000ccc;
+          border: 1px solid black;
+          padding: 0.3125rem 1.5rem;
+        }
+      }
+    }
+  }
+}

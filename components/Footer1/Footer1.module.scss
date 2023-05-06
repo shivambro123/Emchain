@@ -1,0 +1,51 @@
+@import "/styles/variables.scss";
+
+.container {
+  color: black;
+  background: #fff;
+  padding: 0rem 6rem;
+
+  .logo {
+    margin: 3.5rem 0 1rem 0;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    .firstul {
+      ul {
+        padding: 0px;
+        list-style-type: none;
+        li {
+          margin: 1rem 0rem;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          color: #1d1d1d;
+          opacity: 0.5;
+          i {
+            color: #000ccc;
+            margin-right: 0.7rem;
+          }
+        }
+
+        .listheading {
+          color: #000ccc;
+          margin: 0.5rem 0rem;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          opacity: 1;
+        }
+      }
+    }
+    .icondiv {
+      ul {
+        display: flex;
+
+        li {
+          margin: 0rem 1rem;
+        }
+      }
+    }
+  }
+}

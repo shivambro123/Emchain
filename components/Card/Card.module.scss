@@ -1,0 +1,77 @@
+@import "/styles/variables.scss";
+.maincontainer {
+  background: #f6f6f6;
+  padding: 4.5rem 0rem;
+  .container {
+    color: black;
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin: 0 7rem;
+
+    .firstdiv {
+      width: 20.625rem;
+      height: 22.5rem;
+
+      .inner {
+        padding: 2.6rem 0rem 0.3rem 2.25rem;
+        // background-color: red;
+        // color: black;
+        .icons {
+          fill: red;
+        }
+      }
+
+      .stratedgy {
+        height: 96.51px;
+        width: 81.24px;
+        color: red;
+      }
+      .grow {
+        height: 93px;
+        width: 93px;
+      }
+      .community {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        padding: 0.4rem 2.25rem;
+      }
+      .lacus {
+        display: flex;
+        font-family: $font-alternate;
+        padding: 0rem 2.25rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #1d1d1d;
+        opacity: 0.3;
+      }
+      &:hover {
+        background: #000ccc;
+        box-shadow: 0px 17px 24px rgba(0, 12, 204, 0.3);
+        color: white;
+        .inner {
+          // height:100px;
+          // width:100px;
+        }
+        .icons {
+          filter: brightness(0) invert(1);
+        }
+        .lacus {
+          color: white;
+          opacity: 1;
+        }
+      }
+    }
+
+    .third {
+      background: #000ccc;
+      box-shadow: 0px 17px 24px rgba(0, 12, 204, 0.3);
+      width: 340px;
+      height: 353px;
+      color: white;
+    }
+  }
+}

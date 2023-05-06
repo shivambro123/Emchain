@@ -1,0 +1,55 @@
+@import "/styles/variables.scss";
+
+.container {
+  justify-content: space-between;
+  // margin: 0.9375rem 0rem;
+  align-items: center;
+  color: black;
+  background: #000ccc;
+  background-image: url("/images/image 2 (Traced) (2).png");
+  background-size: 60%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  padding: 1rem 7rem;
+
+  .heading {
+    h1 {
+      color: #fff;
+      font-family: $font-alternate;
+      font-size: 3.2rem;
+    }
+  }
+  .wrapper {
+    display: flex;
+    width: 100%;
+    margin: 5rem 0;
+    justify-content: space-between;
+    align-items: center;
+
+    .infodiv {
+      color: #ffffff;
+
+      h3 {
+        font-family: $font-alternate;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 0.4;
+        color: #ffffff;
+      }
+      .desc {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}
